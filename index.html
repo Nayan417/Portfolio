@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nayan Mandal</title>
+  <!-- External link -->
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Poppins:wght@400;700&family=Roboto:wght@300&display=swap"
+    rel="stylesheet">
+
+  <!-- Style -->
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: rgb(0, 0, 33);
+      font-family: 'Poppins', sans-serif;
+      color: white;
+    }
+
+    container{
+      background-color: yellow !important;
+    }
+    .mainContainer {
+      background-color: pink;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 80px;
+      background-color: rgb(18, 18, 62);
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul li {
+      list-style: none;
+      margin: 0 23px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+    }
+
+    nav ul li a:hover {
+      color: rgb(168, 168, 238);
+      font-size: 1.01rem;
+    }
+
+    main hr {
+      border: 0;
+      background: #9c97f1;
+      height: 1.2px;
+      margin: 60px 84px;
+    }
+
+    .left {
+      font-size: 1.5rem;
+      position: relative;
+      left: -17px;
+    }
+
+    .firstSection {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin: 130px 0px;
+    }
+
+    .firstSection>div {
+      width: 33%;
+    }
+
+    .leftSection {
+      /* background-color: red; */
+      font-size: 2.3rem;
+    }
+     
+    .leftSection .buttons {
+      padding: 50px 0;
+    }
+
+    .leftSection .btn{
+      padding: 12px;
+      background:#1e2167;
+      color: white;
+      border: 2px solid white;
+      border-radius: 6px;
+      font-size: 20px;
+      cursor: pointer;
+    }
+
+    .rightSection img {
+      width: 80%;
+    }
+
+    /* Second Section */
+    .secondSection {
+      max-width: 83vw;
+      margin: auto;
+      height: 80vh;
+    }
+
+    .secondSection h1 {
+      font-size: 1.9rem;
+    }
+
+    .secondSection .box {
+      background: white;
+      width: 83vw;
+      height: 2px;
+      margin: 56px 0;
+      display: flex;
+    }
+
+    .secondSection .vertical {
+      height: 93px;
+      width: 1px;
+      background-color: white;
+      margin: 0px 130px;
+    }
+
+
+    /* footer */
+    footer {
+      background-color: #0e0e1a;
+    }
+
+    .footer {
+      display: flex;
+      justify-content: space-evenly;
+      padding: 23px 122px;
+    }
+    
+    .footer-first {
+      /* background-color: red; */
+      position: relative;
+      left:-33px;
+      font-size: 1rem;
+    }
+    .footer ul ,a {
+      list-style: none;
+      text-decoration: none;
+    }
+    .footer ul li a:hover {
+      color: rgb(168, 168, 238);
+      font-size: 1rem;
+    }
+
+    .footer > div {
+     width: 223px;
+    }
+    
+    footer .footer-right{
+      text-align: center;
+      color: gray;
+      padding: 12px 0;
+    }
+
+    /* Utility class */
+    .purple {
+      color: rgb(170, 107, 220);
+    }
+
+    .text-gray {
+      color: gray;
+    }
+
+    .image-top {
+      width: 23px;
+      position: relative;
+      top : -32px;
+      left: -9px;
+    }
+    
+    .vertical-title {
+     position: relative;
+     left:-2px;
+     top: 73px;
+     width: 150px;
+     font-size: 16px;
+    }
+    
+    .vertical-desc {
+      position: relative;
+      top: 86px;
+      color: gray;
+      width: 151px;
+      font-size: 7px;
+    }
+  </style>
+</head>
+
+<body>
+  <container class="mainContainer">
+  <header>
+    <nav>
+      <div class="left">Nayan's Portfolio</div>
+      <div class="right">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Service</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contact Me</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- main section -->
+  <main>
+    <section class="firstSection">
+      <div class="leftSection">
+        Hii My name is <span class="purple">Nayan</span>
+        <div>and I am a passionate </div>
+          <span id="element" class="purple"></span>
+
+          <div class="buttons">
+            <a href="resume.pdf" target="_blank"><button class="btn">Download Resume</button></a>
+            <!-- <a href="C.png">Click me</a> -->
+            <a href="https://github.com/Nayan417" target="_blank"><button class="btn">Visit Github</button> </a>
+          </div>
+
+       
+      </div>
+
+      <div class="rightSection">
+        <img src="png1.png" alt="">
+      </div>
+    </section>
+ 
+
+  <hr>
+  <section class="secondSection">
+    <span class="text-gray"> What I have done so far</span>
+    <h1>Work Experience</h1>
+
+    <div class="box">
+      <div class="vertical">
+        <img class="image-top" src="developer.png" alt="Developer">
+        <div class="vertical-title">
+          Web Developer        
+          <div>(2022 - 2023)</div>
+
+        </div>
+        <div class="vertical-desc">
+          I've gained a good understanding of HTML, CSS, and JavaScript, building responsive and interactive web pages.
+        </div>
+      </div>
+      <div class="vertical">
+        <img class="image-top" src="developer.png" alt="Developer">
+        <div class="vertical-title">
+          C Programming         
+          <div>(2022 - 2023)</div>
+
+        </div>
+        <div class="vertical-desc">
+          I've grasped foundational concepts like variables, loops, and functions, allowing me to write basic programs.   </div>
+      </div>
+
+      <div class="vertical">
+        <img class="image-top" src="developer.png" alt="Developer">
+        <div class="vertical-title">
+          Java Script 
+         <div>(2022 - 2023)</div>
+        </div>
+        <div class="vertical-desc">
+          I'm comfortable with functions, variables, loops, and have explored asynchronous operations like Promises and async/await for managing data flow effectively     </div>
+      </div>
+
+      <div class="vertical">
+        <img class="image-top" src="developer.png" alt="Developer">
+        <div class="vertical-title">
+          NodeJs Developer          
+          <div>(2022 - 2023)</div>
+
+        </div>
+        <div class="vertical-desc">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Architecto iure doloribus odio modi mollitia consequuntur aut in blanditiis nostrum tempora.
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+</main>
+
+<footer>
+  <div class="footer">
+    <div class="footer-first">
+      Nayan's Developer Portfolio
+    </div>
+    <div class="footer-second">
+   <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Service</a></li>
+    <li><a href="#">Projects</a></li>
+    <li><a href="#">Contact Me</a></li>
+   </ul>
+    </div>
+    <div class="footer-third">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Service</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact Me</a></li>
+       </ul>
+    </div>
+    <div class="footer-fourth">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Service</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact Me</a></li>
+       </ul>
+    </div>
+  </div>
+  <div class="footer-right">
+    Copyright &#169; nayanportfolio.com | All rights reserved
+  </div>
+</footer>
+</container>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Competative Coding', 'Video Editor', 'Web Developer'],
+      typeSpeed: 50,
+    });
+
+  </script>
+</body>
+
+</html>
